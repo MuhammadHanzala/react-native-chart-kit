@@ -292,7 +292,7 @@ class LineChart extends AbstractChart {
               {this.renderVerticalLabels({
                 ...config,
                 labels,
-                paddingRight,
+                paddingRight: 120,
                 paddingTop
               })}
             </G>
