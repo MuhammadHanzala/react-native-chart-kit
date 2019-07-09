@@ -288,11 +288,11 @@ class LineChart extends AbstractChart {
                   })
                 : null}
             </G>
-            <G>
+            <G x="30">
               {this.renderVerticalLabels({
                 ...config,
                 labels,
-                paddingRight: 120,
+                paddingRight,
                 paddingTop
               })}
             </G>
